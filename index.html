@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍽️ Restaurant Finder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container" >
+    <h1>🍽️ Welcome to Restaurant Spotter</h1>
+    <div class="links" >
+      <a href="all.html" class="button">View All Restaurants</a>
+      <a href="name.html" class="button">Search by Name</a>
+      <a href="location.html" class="button">Search by Location</a>
+      <a href="image.html" class="button">Search by Cuisine</a>
+    </div>
+  </div>
+  <style>
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .links a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: 500;
+      background-color: #e74c3c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .links a.button:hover {
+      background-color:  #e74c3c;
+      transform: scale(1.05);
+    }
+  </style>
+</body>
+</html>

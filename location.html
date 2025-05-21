@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍽️ Search by Location</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍽️ Search by Location</h1>
+    <form id="locationForm">
+      <input type="number" id="latInput" placeholder="Latitude" step="any" required>
+      <input type="number" id="lngInput" placeholder="Longitude" step="any" required>
+      <button type="button" id="useLocationBtn">Use My Location</button>
+      <button type="submit">Search</button>
+    </form>
+    <div id="results"></div>
+  </div>
+  <script src="js/location.js"></script>
+</body>
+</html>
