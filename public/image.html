@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🍽️ Search by Cuisine</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍽️ Search by Cuisine</h1>
+    <form id="cuisineForm">
+      <select id="cuisineSelect" required>
+        <option value="" disabled selected>Select cuisine</option>
+        <option value="French">French</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Italian">Italian</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Desserts">Desserts</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+    <div id="results"></div>
+  </div>
+  <script src="/js/image.js"></script>
+</body>
+</html>
